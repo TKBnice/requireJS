@@ -8,10 +8,10 @@ Note:the script tag require.js generates for your data-main module includes the 
 
 In these js's files,main.js、monkey.js、require.js are more important:
 
-precondition：require.js;
+1、precondition：require.js;
 
-main.js include 'require.config' which unified management about the requireJS and 'require' which is executed;
+2、main.js include 'require.config' which unified management about the requireJS and 'require' which is executed;
 
-monkey.js using 'define' to define a module.
+3、monkey.js using 'define' to define a module.
 
 
