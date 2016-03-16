@@ -3,11 +3,11 @@
 */
 define(['jquery'],function($){
     var init = function(){
-	    console.log($.browser);
-	};
-	return {
-	    init: init
-	};
+	console.log($.browser);
+    };
+    return {
+        init: init
+    };
 });
 
 
